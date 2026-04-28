@@ -4,13 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mariage Nada</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Ccircle%20cx='24'%20cy='32'%20r='12'%20fill='none'%20stroke='%23c9a24d'%20stroke-width='6'/%3E%3Ccircle%20cx='40'%20cy='28'%20r='12'%20fill='none'%20stroke='%23c9a24d'%20stroke-width='6'/%3E%3C/svg%3E" type="image/svg+xml">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAQKADAAQAAAABAAAAQAAAAABGUUKwAAACIklEQVRoBe2X0W3DMAxEm6IzdYxu0OmyQcfoUq4KAYRxpMQjJSswoHxJMnl8R8pB8jiO4+3On/c7w/+zbwOvnuCewJ7AYAf2FRps4HD6nsBwCwcF9gQGGzicfvsJfAy3gBX4fX7p0M/vH30YOnlc/XPa5NaIaScXGiDRz2YSNq56BxL0xUki6xIDCQ6ZQzR3/hVqEZjXIxQsJs+LvIFW7bN6XZvo5zBTys2qCuGvUbPYmQbWDEeJicpKlcAEEjUYekHR+kw6+xJrdSncWYSyGFxdizIQ4oAaI7kgZW79K9QigIa1wmpVCDZR6iHouInOBEBOaFxdQDR1ICa3dQxo0Si6Vph70jOg28bT60itNsVJzwAU0EwQANtoPKST24ABUnFxWNMATDzXTsgCzSlWmwai6lNYwSFomkjTDJjqCw4vNADtdM1E46vgTAN64jyTjtRqZgtmGjALMIeansmqMZMNkG0TvoJu0vM6vR9zIM2LQqLgkgu+UBGcPIGKGCIAV9HcgIFQX6Mcaee9K1RENTRJphOh07AlZSGrbDN/6t1iPL0rpYnhxJlAiW7RmLVDwYCS2/oGOh7IkqZVMtcNo17iEYKRXJe+BFAGSlyOI5fFcEsMdYUkuixat/wcU9YL0GvFsAEBNZ0s4xaMvAGReO2CfQdeS9mpvg10mrPk0Z7AkjZ3iuwJdJqz5NGewJI2d4rsCXSas+TRnsCSNneK3H4Cf/v3vU/bdIHAAAAAAElFTkSuQmCC">
+  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAQKADAAQAAAABAAAAQAAAAABGUUKwAAACIklEQVRoBe2X0W3DMAxEm6IzdYxu0OmyQcfoUq4KAYRxpMQjJSswoHxJMnl8R8pB8jiO4+3On/c7w/+zbwOvnuCewJ7AYAf2FRps4HD6nsBwCwcF9gQGGzicfvsJfAy3gBX4fX7p0M/vH30YOnlc/XPa5NaIaScXGiDRz2YSNq56BxL0xUki6xIDCQ6ZQzR3/hVqEZjXIxQsJs+LvIFW7bN6XZvo5zBTys2qCuGvUbPYmQbWDEeJicpKlcAEEjUYekHR+kw6+xJrdSncWYSyGFxdizIQ4oAaI7kgZW79K9QigIa1wmpVCDZR6iHouInOBEBOaFxdQDR1ICa3dQxo0Si6Vph70jOg28bT60itNsVJzwAU0EwQANtoPKST24ABUnFxWNMATDzXTsgCzSlWmwai6lNYwSFomkjTDJjqCw4vNADtdM1E46vgTAN64jyTjtRqZgtmGjALMIeansmqMZMNkG0TvoJu0vM6vR9zIM2LQqLgkgu+UBGcPIGKGCIAV9HcgIFQX6Mcaee9K1RENTRJphOh07AlZSGrbDN/6t1iPL0rpYnhxJlAiW7RmLVDwYCS2/oGOh7IkqZVMtcNo17iEYKRXJe+BFAGSlyOI5fFcEsMdYUkuixat/wcU9YL0GvFsAEBNZ0s4xaMvAGReO2CfQdeS9mpvg10mrPk0Z7AkjZ3iuwJdJqz5NGewJI2d4rsCXSas+TRnsCSNneK3H4Cf/v3vU/bdIHAAAAAAElFTkSuQmCC">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     :root {
       --gold: #c9a24d;
       --pink: #f3b6c6;
       --dark: #333;
       --whatsapp: #25D366;
+      --sheen-x: 0px;
+      --sheen-y: 0px;
+      --particle-offset-x: 0px;
+      --particle-offset-y: 0px;
     }
 
     * { box-sizing: border-box; }
@@ -18,29 +25,299 @@
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: #fafafa;
+      background: #f7f1e7;
       color: var(--dark);
       line-height: 1.6;
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.6) 0, transparent 20%),
+        radial-gradient(circle at 80% 15%, rgba(255,255,255,0.45) 0, transparent 14%),
+        radial-gradient(circle at 50% 80%, rgba(0,0,0,0.04) 0, transparent 12%);
+      background-size: 420px 420px, 320px 320px, 280px 280px;
+      position: relative;
+      overflow-x: hidden;
     }
 
-    header {
-      background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('fleurs.jpg');
-      background-size: cover;
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background-image:
+        radial-gradient(circle, rgba(255,255,255,0.95) 1px, transparent 1.5px),
+        radial-gradient(circle, rgba(255,255,255,0.75) 0.8px, transparent 1.2px),
+        radial-gradient(circle, rgba(255,255,255,0.9) 0.6px, transparent 1px);
+      background-size: 160px 160px, 120px 120px, 220px 220px;
+      background-position:
+        calc(var(--particle-offset-x)) calc(var(--particle-offset-y)),
+        calc(var(--particle-offset-x) * 0.8) calc(var(--particle-offset-y) * 1.2),
+        calc(var(--particle-offset-x) * 1.1) calc(var(--particle-offset-y) * 0.9);
+      opacity: 0.22;
+      box-shadow: inset 0 0 100px rgba(247, 241, 231, 0.8);
+    }
+
+      body::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: linear-gradient(135deg, transparent 25%, rgba(255,255,255,0.15) 45%, rgba(255,255,255,0.08) 55%, transparent 75%);
+        transform: translate(calc(var(--sheen-x) * 1.5), calc(var(--sheen-y) * 1.2));
+        pointer-events: none;
+        z-index: -2;
+        opacity: 0.6;
+      }
+
+      .watermark {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Playfair Display', serif;
+        font-size: 28vw;
+        font-weight: 600;
+        color: rgba(201, 162, 77, 0.03);
+        z-index: 0;
+        pointer-events: none;
+        line-height: 1;
+        letter-spacing: -0.06em;
+        white-space: nowrap;
+        text-shadow:
+          0 2px 4px rgba(0,0,0,0.02),
+          inset -2px -2px 3px rgba(0,0,0,0.03);
+      }
+
+      header {
+      background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(247,243,237,0.95));
       text-align: center;
-      padding: 80px 20px;
+      padding: 90px 20px 80px;
       border-bottom: 4px solid var(--gold);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+      position: relative;
     }
 
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin: 10px 0;
+    .header-box {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      padding: 40px 38px 36px;
+      border: 1px solid rgba(201,162,77,0.95);
+      border-radius: 30px;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.65), 0 18px 60px rgba(0,0,0,0.06);
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(5px);
     }
 
     header p {
       font-family: 'Playfair Display', serif;
-      font-size: 1.1rem;
-      margin-bottom: 15px;
+      font-size: 1.05rem;
+      margin: 0;
+      clip-path: inset(0 100% 0 0);
+      animation: sweepReveal 1.5s ease-out 0.5s forwards;
+      text-shadow:
+        0.5px 0.5px 0 rgba(255,255,255,0.8),
+        -0.5px -0.5px 0 rgba(0,0,0,0.15),
+        inset 0.5px 0.5px 1px rgba(255,255,255,0.6),
+        inset -0.5px -0.5px 1px rgba(0,0,0,0.1);
+      letter-spacing: 0.04em;
+    }
+
+    .header-divider {
+      width: 0;
+      height: 1px;
+      border-radius: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      animation: drawLine 1.3s ease-out 1.5s forwards;
+    }
+
+    header h1 {
+      font-size: 3.6rem;
+      margin: 0;
+      opacity: 1;
+      position: relative;
+    }
+
+    .handwrite-svg {
+      width: 200px;
+      height: 60px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .handwrite-text {
+      font-family: 'Parisienne', cursive;
+      font-size: 48px;
+      fill: none;
+      stroke: url(#goldGradient);
+      stroke-width: 1;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: writeHand 3s ease-in-out 2.5s forwards;
+    }
+
+    @keyframes writeHand {
+      to { stroke-dashoffset: 0; }
+    }
+
+    header h1 {
+      position: relative;
+    }
+
+    header h1::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.75) 50%, transparent 70%);
+      transform: translateX(-120%);
+      opacity: 0.65;
+      pointer-events: none;
+      animation: sheenMove 5s ease-in-out 3s infinite;
+    }
+
+    @keyframes signatureWrite {
+      0% {
+        opacity: 0;
+        filter: blur(8px);
+      }
+      20% {
+        opacity: 1;
+        filter: blur(4px);
+      }
+      100% {
+        opacity: 1;
+        filter: blur(0);
+      }
+    }
+
+    @keyframes writeIn {
+      to {
+        clip-path: inset(0 0 0 0);
+        filter: blur(0);
+      }
+    }
+
+    @keyframes shimmerPass {
+      0% {
+        background-position: -300% calc(50% + var(--sheen-y));
+      }
+      50% {
+        background-position: calc(50% + var(--sheen-x)) calc(50% + var(--sheen-y));
+      }
+      100% {
+        background-position: 300% calc(50% + var(--sheen-y));
+      }
+    }
+
+    @keyframes fadeInBlur {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+      }
+    }
+
+    @keyframes sweepReveal {
+      to { clip-path: inset(0 0 0 0); }
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes breathe {
+      from { letter-spacing: 0.16em; }
+      to { letter-spacing: 0.30em; }
+    }
+
+    @keyframes drawLine {
+      to { width: 120px; }
+    }
+
+    @keyframes goldSheen {
+      0% { background-position: 0% 40%; }
+      50% { background-position: 100% 60%; }
+      100% { background-position: 0% 40%; }
+    }
+
+    @keyframes sheenMove {
+      0% { transform: translateX(-120%); }
+      50% { transform: translateX(120%); }
+      100% { transform: translateX(320%); }
+    }
+
+    .curtain {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1000;
+      display: flex;
+    }
+
+    .curtain-left, .curtain-right {
+      flex: 1;
+      background: linear-gradient(90deg, #e8dcc4 0%, #f7f1e7 100%);
+      animation: curtainOpen 2.2s ease-in-out forwards;
+    }
+
+    .curtain-right {
+      animation: curtainOpenRight 2.2s ease-in-out forwards;
+      background: linear-gradient(270deg, #e8dcc4 0%, #f7f1e7 100%);
+    }
+
+    @keyframes curtainOpen {
+      to { transform: translateX(-100%); }
+    }
+
+    @keyframes curtainOpenRight {
+      to { transform: translateX(100%); }
+    }
+
+    .petal {
+      position: absolute;
+      width: 12px;
+      height: 18px;
+      background: linear-gradient(135deg, rgba(255,192,203,0.4), rgba(255,182,193,0.6));
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      opacity: 0.7;
+      animation: fall 20s linear infinite;
+      pointer-events: none;
+      z-index: -3;
+    }
+
+    .petal:nth-child(odd) {
+      background: linear-gradient(135deg, rgba(255,228,225,0.4), rgba(255,218,221,0.6));
+      animation-duration: 25s;
+      animation-delay: -5s;
+    }
+
+    .petal:nth-child(3n) {
+      width: 8px;
+      height: 14px;
+      animation-duration: 18s;
+      animation-delay: -10s;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 0;
+      }
+      10% {
+        opacity: 0.7;
+      }
+      90% {
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
     }
 
     section {
@@ -78,6 +355,17 @@
       font-weight: 500;
     }
 
+    .animate-fade {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .animate-fade.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
     /* Styles des boutons */
     .rsvp {
       background: #fff;
@@ -103,6 +391,14 @@
       font-size: 0.95rem;
       font-weight: 500;
       transition: 0.3s;
+    }
+
+    .detail-icon {
+      display: inline-block;
+      margin-right: 0.5rem;
+      font-size: 1.05rem;
+      line-height: 1;
+      vertical-align: middle;
     }
 
     .btn-outline {
@@ -139,25 +435,55 @@
 </head>
 <body>
 
+  <div class="curtain">
+    <div class="curtain-left"></div>
+    <div class="curtain-right"></div>
+  </div>
+
+  <div class="watermark">N</div>
+
+  <div class="petal" style="left: 10%; animation-delay: 0s;"></div>
+  <div class="petal" style="left: 20%; animation-delay: 2s;"></div>
+  <div class="petal" style="left: 30%; animation-delay: 4s;"></div>
+  <div class="petal" style="left: 40%; animation-delay: 6s;"></div>
+  <div class="petal" style="left: 50%; animation-delay: 8s;"></div>
+  <div class="petal" style="left: 60%; animation-delay: 10s;"></div>
+  <div class="petal" style="left: 70%; animation-delay: 12s;"></div>
+  <div class="petal" style="left: 80%; animation-delay: 14s;"></div>
+  <div class="petal" style="left: 90%; animation-delay: 16s;"></div>
+
   <header>
-    <p>Mme Abira Djoudi a le plaisir de vous inviter au mariage de sa fille</p>
-    <h1>Nada</h1>
+    <div class="header-box">
+      <p>Mme Abira Djoudi a le plaisir de vous inviter au mariage de sa fille</p>
+      <div class="header-divider"></div>
+      <h1><svg class="handwrite-svg" viewBox="0 0 200 60">
+        <defs>
+          <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#d1ab5d;stop-opacity:1" />
+            <stop offset="25%" style="stop-color:#f2d38a;stop-opacity:1" />
+            <stop offset="55%" style="stop-color:#c9a24d;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e5c17a;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <text x="100" y="45" text-anchor="middle" class="handwrite-text">Nada</text>
+      </svg></h1>
+    </div>
   </header>
 
   <section>
     <h2>Détails de la cérémonie</h2>
     <div class="info-grid">
-      <div class="card">
+      <div class="card animate-fade">
         <h3>Date</h3>
-        <p>Jeudi 29 Octobre 2026</p>
+        <p><span class="detail-icon">🌿</span>Jeudi 29 Octobre 2026</p>
       </div>
-      <div class="card">
+      <div class="card animate-fade">
         <h3>Heure</h3>
         <p>À partir de 16h00</p>
       </div>
-      <div class="card">
+      <div class="card animate-fade">
         <h3>Lieu</h3>
-        <p>Lieu à définir</p>
+        <p><span class="detail-icon">📍</span>Lieu à définir</p>
       </div>
     </div>
 
@@ -166,23 +492,54 @@
     </div>
   </section>
 
-  <section>
-    <h2>Confirmation de présence</h2>
-    <div class="rsvp">
-      <p>Merci de nous confirmer votre venue avant le 1er Octobre</p>
-      <p><strong>Téléphone :</strong> +213 557 915 099</p>
-      
-      <div class="btn-container">
-        <a href="https://wa.me/213557915099?text=Bonjour,%20je%20confirme%20ma%20présence%20au%20mariage%20de%20Nada" class="btn btn-wa">Message WhatsApp</a>
-        <a href="tel:+213557915099" class="btn btn-outline" style="border-style: solid;">Appeler directement</a>
-      </div>
-    </div>
-  </section>
-
   <footer>
     <p>© 2026 — Mariage de Nada</p>
     <p>Utilisez le hashtag <strong>#Nada2026</strong></p>
   </footer>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const items = document.querySelectorAll('.animate-fade');
+      if (!('IntersectionObserver' in window)) {
+        items.forEach(item => item.classList.add('show'));
+        return;
+      }
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      items.forEach(item => observer.observe(item));
+    });
+
+    if (window.DeviceOrientationEvent) {
+      window.addEventListener('deviceorientation', function(event) {
+        const x = Math.max(-18, Math.min(18, event.gamma || 0));
+        const y = Math.max(-18, Math.min(18, event.beta || 0));
+        document.documentElement.style.setProperty('--sheen-x', `${x * 0.12}px`);
+        document.documentElement.style.setProperty('--sheen-y', `${y * 0.08}px`);
+      });
+    } else {
+      window.addEventListener('pointermove', function(event) {
+        const x = (event.clientX / window.innerWidth - 0.5) * 12;
+        const y = (event.clientY / window.innerHeight - 0.5) * 8;
+        document.documentElement.style.setProperty('--sheen-x', `${x}px`);
+        document.documentElement.style.setProperty('--sheen-y', `${y}px`);
+      });
+    }
+
+    window.addEventListener('scroll', function() {
+      const scroll = window.scrollY / Math.max(document.body.scrollHeight - window.innerHeight, 1);
+      const x = (scroll - 0.5) * 60;
+      const y = (scroll - 0.5) * 24;
+      document.documentElement.style.setProperty('--sheen-x', `${x}px`);
+      document.documentElement.style.setProperty('--sheen-y', `${y}px`);
+    });
+  </script>
 </body>
 </html>
