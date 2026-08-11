@@ -350,6 +350,7 @@
       width: 100%;
       height: 500px;
       border-radius: 8px;
+      border: 0;
     }
 
     footer {
@@ -370,15 +371,28 @@
 
   <div class="watermark">N</div>
 
-  <div class="petal" style="left: 10%; animation-delay: 0s;"></div>
-  <div class="petal" style="left: 20%; animation-delay: 2s;"></div>
-  <div class="petal" style="left: 30%; animation-delay: 4s;"></div>
-  <div class="petal" style="left: 40%; animation-delay: 6s;"></div>
-  <div class="petal" style="left: 50%; animation-delay: 8s;"></div>
-  <div class="petal" style="left: 60%; animation-delay: 10s;"></div>
-  <div class="petal" style="left: 70%; animation-delay: 12s;"></div>
-  <div class="petal" style="left: 80%; animation-delay: 14s;"></div>
-  <div class="petal" style="left: 90%; animation-delay: 16s;"></div>
+  <div class="petal p1"></div>
+  <div class="petal p2"></div>
+  <div class="petal p3"></div>
+  <div class="petal p4"></div>
+  <div class="petal p5"></div>
+  <div class="petal p6"></div>
+  <div class="petal p7"></div>
+  <div class="petal p8"></div>
+  <div class="petal p9"></div>
+
+  <style>
+    /* Moved inline styles from petal elements into CSS classes */
+    .petal.p1 { left: 10%; animation-delay: 0s; }
+    .petal.p2 { left: 20%; animation-delay: 2s; }
+    .petal.p3 { left: 30%; animation-delay: 4s; }
+    .petal.p4 { left: 40%; animation-delay: 6s; }
+    .petal.p5 { left: 50%; animation-delay: 8s; }
+    .petal.p6 { left: 60%; animation-delay: 10s; }
+    .petal.p7 { left: 70%; animation-delay: 12s; }
+    .petal.p8 { left: 80%; animation-delay: 14s; }
+    .petal.p9 { left: 90%; animation-delay: 16s; }
+  </style>
 
   <header>
     <div class="header-box">
@@ -419,7 +433,7 @@
     <div class="info-grid">
       <div class="card animate-fade">
         <h3>Date</h3>
-        <p><span class="detail-icon">🌿</span>26 decembre 2026</p>
+        <p><span class="detail-icon">🌿</span>Jeudi 26 decembre 2026</p>
       </div>
       <div class="card animate-fade">
         <h3>Heure</h3>
@@ -427,26 +441,25 @@
       </div>
       <div class="card animate-fade">
         <h3>Lieu</h3>
-        <p><span class="detail-icon">📍</span><a href="https://www.google.com/maps/place/Apc+Kouba+Alger/@36.7316969,3.0693852,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x128fad005eed6c67:0xd84261c967b016ab!2sApc+Kouba+Alger,+Kouba,+Algérie!2m2!1d3.0719601!2d36.7316969!3m5!1s0x128fad005eed6c67:0xd84261c967b016ab!8m2!3d36.7316969!4d3.0719601!16s%2Fg%2F11lyvk9jz2?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">APC kouba</a></p>
+        <p><span class="detail-icon">📍</span><a href="" target="_blank">Salle de dîner elghazel</a></p>
+      </div>
+      <div class="card animate-fade">
+        <h3>Lien</h3>
+        <a href="https://www.instagram.com/salle_elghazel2017/" target="_blank"><span class="detail-icon">📸</span>Instagram</a>
+        <a href="https://www.facebook.com/p/Salle-de-dîner-Elghazel-100066673505577/" target="_blank"><span class="detail-icon">📸</span>Facebook</a>
       </div>
     </div>
 
     <div class="media-grid">
       <div class="media-item">
         <h3>Carte</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.619570714904!2d3.0693851766555853!3d36.73169687226684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fad005eed6c67%3A0xd84261c967b016ab!2sApc%20Kouba%20Alger!5e0!3m2!1sfr!2sfr!4v1781114208261!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.655673975584!2d3.123548075978723!3d36.73082997160677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e529a9a466fb3%3A0x28cec012966f3268!2sSalle%20de%20d%C3%AEner%20elghazel!5e0!3m2!1sfr!2sfr!4v1786433668008!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
-      <div class="media-item">
-        <h3>Vidéo</h3>
-        <video controls>
-          <source src="video.mp4" type="video/mp4">
-          Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-        </video>
-      </div>
+     
     </div>
 
     <div style="text-align: center;">
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Mariage+de+Nada&dates=20261029T160000Z/20261029T235900Z&details=Nous+serons+ravis+de+vous+compter+parmi+nous." target="_blank" class="btn btn-outline">📅 Ajouter au calendrier</a>
+      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Mariage+de+Nada&dates=20261226T160000Z/20261226T235900Z&details=Nous+serons+ravis+de+vous+compter+parmi+nous." target="_blank" class="btn btn-outline">📅 Ajouter au calendrier</a>
     </div>
   </section>
 
